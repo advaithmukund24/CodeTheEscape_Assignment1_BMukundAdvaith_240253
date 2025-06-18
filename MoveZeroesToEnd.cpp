@@ -1,6 +1,6 @@
-void pushZeros AtEnd(vector<int> &arr)
+void pushZerosAtEnd(vector<int> &arr)
 {
-  int len arr.size();
+  int len = arr.size();
   int x=0;
   for (int i=0; i<len; i++){
     if (arr[i]==0){
